@@ -1,3 +1,4 @@
+console.log("Accedo a fichero main.js");
 main = function() {
   var original = document.getElementById("original").value;
   if (window.localStorage) localStorage.original = original;

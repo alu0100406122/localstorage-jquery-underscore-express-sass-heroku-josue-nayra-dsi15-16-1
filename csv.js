@@ -1,3 +1,4 @@
+console.log("Accedo a fichero csv.js");
 (function(exports) {
   "use strict"; // Use ECMAScript 5 strict mode in browsers that support it
   // See http://en.wikipedia.org/wiki/Comma-separated_values
