@@ -13,7 +13,7 @@ gulp.task('minify', function () {
   
   //----------------------SRC---------------------------
   //Archivos JS
-  gulp.src(['main.js','csv.js'])
+  gulp.src(['assets/js/main.js','assets/js/csv.js'])
     .pipe(uglify())
     .pipe(gulp.dest('minified/src/js'))
   
@@ -23,7 +23,7 @@ gulp.task('minify', function () {
     .pipe(gulp.dest('./minified/src/html'))
     
   //CSS /
-  gulp.src('global.css')
+  gulp.src('assets/css/global.css')
    .pipe(cleanCSS({compatibility: 'ie8'}))
    .pipe(gulp.dest('./minified/src/css/'))
    
