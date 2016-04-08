@@ -9,4 +9,10 @@ For more information look at:
 * La [descripción de la práctica](https://casianorodriguezleon.gitbooks.io/pl1516/content/practicas/csv.html)
 * See it working at [CSV en GitHub Pages](http://crguezl.github.io/csv/)
 * See also [CSV](http://en.wikipedia.org/wiki/Comma-separated_values) at Wikipedia.
+* 
+
+
+
+### Ejecución en Travis
+[![Build Status](https://travis-ci.org/JosueTC94/localstorage-jquery-underscore-express-sass-heroku-josue-nayra-dsi15-16-1.svg?branch=master)](https://travis-ci.org/JosueTC94/localstorage-jquery-underscore-express-sass-heroku-josue-nayra-dsi15-16-1)
 
