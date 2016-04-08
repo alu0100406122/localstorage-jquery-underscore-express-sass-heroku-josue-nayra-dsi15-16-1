@@ -1,0 +1,62 @@
+$font-stack: Arial, sans-serif;
+$primary-color: black;
+$text: center;
+$background: #660033;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+  background-color: #F9F9F9;
+}
+
+h1{
+    text-align: $text;
+    font-weight: x-large;
+    background: $background;
+    padding: 5px 15px;
+    color: white;
+    //display:block;     /*establece el tipo de caja*/
+    border-radius: 20px 20px 20px 20px;
+}
+
+tr {
+   background-color: #eee; 
+}
+
+th {
+    font-size:x-large;
+}
+
+table{
+    border: inset;
+    border-color: white;
+    text-align: $text;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: $background;
+    font-size: large;
+}
+
+.nombre {
+    text-align: $text;
+    color: white;
+    font-family: $font-stack;
+}
+
+th, td        { vertical-align: top; text-align: right; }   
+
+#finaltable:hover td { background-color: blue; } 
+tr:nth-child(odd)    { background-color:#eee; }
+tr:nth-child(even)    { background-color:#00FF66; }
+input        { text-align: right;  border: none;       }     /* Align input to the right  */
+textarea     { border: outset; border-color: white;       }                        
+table        { border: inset; border-color: white; }
+table.center { margin-left:auto; margin-right:auto; }
+#result      { border-color: red; }
+tr.error       { background-color: red; }
