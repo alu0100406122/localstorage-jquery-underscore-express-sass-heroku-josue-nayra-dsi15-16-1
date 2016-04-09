@@ -9,13 +9,17 @@ h1 {
   background: #660033;
   padding: 5px 15px;
   color: white;
+  display: block;
+  /*establece el tipo de caja*/
   border-radius: 20px 20px 20px 20px; }
 
 tr {
   background-color: #eee; }
 
 th {
-  font-size: x-large; }
+  font-size: x-large;
+  vertical-align: top;
+  text-align: right; }
 
 table {
   border: inset;
@@ -41,7 +45,11 @@ th, td {
   text-align: right; }
 
 #finaltable:hover td {
-  background-color: blue; }
+  background-color: #ECCEF5; }
+
+#div_twelve {
+  margin-top: 100px;
+  margin-left: 20px; }
 
 tr:nth-child(odd) {
   background-color: #eee; }
