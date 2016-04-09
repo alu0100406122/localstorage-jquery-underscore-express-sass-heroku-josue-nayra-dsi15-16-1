@@ -1,7 +1,8 @@
 
 #Práctica 7. Comma Separated Values
 
-## Desarrollo de Sistemas Informáticos. ETSII ULL Grado de Informática.
+## Desarrollo de Sistemas Informáticos. 
+##ETSII ULL Grado de Informática.
 
 Información:
 
@@ -30,3 +31,9 @@ Información:
 ### Ejecución en Travis
 [![Build Status](https://travis-ci.org/JosueTC94/localstorage-jquery-underscore-express-sass-heroku-josue-nayra-dsi15-16-1.svg?branch=master)](https://travis-ci.org/JosueTC94/localstorage-jquery-underscore-express-sass-heroku-josue-nayra-dsi15-16-1)
 
+
+### AUTORES: 
+### Páginas personales de gh-pages:
+
+* [Josué Toledo Castro](http://josuetc94.github.io/)
+* [María Nayra Rodríguez Pérez](http://alu0100406122.github.io/)

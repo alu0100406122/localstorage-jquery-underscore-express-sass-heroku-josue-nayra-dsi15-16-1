@@ -49,6 +49,7 @@
     "phantomjs-prebuilt": "^2.1.7",
     "rebuild": "^0.1.2",
     "requirejs": "^2.2.0",
+    "sass": "^0.5.0",
     "sinon": "^1.17.3",
     "sinon-chai": "^2.8.0"
   }
