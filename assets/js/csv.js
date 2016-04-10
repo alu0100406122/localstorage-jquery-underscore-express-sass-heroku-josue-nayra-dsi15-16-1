@@ -13,6 +13,7 @@ console.log("Accedo a fichero csv.js");
       var remove1stquote = removecomma.replace(/^\s*"/, '');
       var removelastquote = remove1stquote.replace(/"\s*$/, '');
       var removeescapedquotes = removelastquote.replace(/\\"/, '"');
+      console.log("Return funcion calculate:"+removeescapedquotes);
       return removeescapedquotes;
     };
 
