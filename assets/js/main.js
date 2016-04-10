@@ -1,5 +1,9 @@
+console.log("Accedo a fichero main.js");
+
+
 main = function() {
   var original = document.getElementById("original").value;
+  console.log("Original:" + original);
   if (window.localStorage) localStorage.original = original;
   var r = calculate(original);
   var template = fillTable.innerHTML;
@@ -13,3 +17,5 @@ $(document).ready(function () {
   }
   $("button").click(main);
 });
+
+
