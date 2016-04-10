@@ -57,7 +57,11 @@ describe('Comma separated values',function()
         expect(auxiliar[0].value).to.deep.equal(['Animal','Patas']);
         expect(auxiliar[1].value).to.deep.equal(['Perro', '4']);
         expect(auxiliar[2].value).to.deep.equal(['Gallina', '2']);
-      })
+        sinon.assert.calledOnce(console.log);
+        sinon.assert.notCalled(console.error);
+        sinon.assert.calledWithExactly(console.log,"Generando tabla");
+      });
+      
         
     });
 });
