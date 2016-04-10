@@ -35,6 +35,7 @@ describe('Comma separated values',function()
                 });
             });
         });
+        
         it("El formato para generar la tabla no es correcto. Calculate devuelve un error en la fila 3.",function()
         {
             var aux = calculate("\"producto\",\"precio\"\n\"caca\",\"vaca\"\n\"producto\",\"precio\"\n\"caca\"");
@@ -43,5 +44,14 @@ describe('Comma separated values',function()
             expect(aux[2].rowClass).to.not.be.equal("error");
             expect(aux[3].rowClass).to.be.equal("error");
         });
+      
+      it ('Comprobando que cada fila de la tabla generada tiene los valores correctos...',function(){
+        this.original = "\"Animal\",\"Patas\"\n\"Perro\",\"4\"\n\"Gallina\",\"2\"";
+        var auxiliar = calculate(this.original);
+        expect(auxiliar[0].value).to.deep.equal(['Animal','Patas']);
+        expect(auxiliar[1].value).to.deep.equal(['Perro', '4']);
+        expect(auxiliar[2].value).to.deep.equal(['Gallina', '2']);
+      })
+        
     });
 });
