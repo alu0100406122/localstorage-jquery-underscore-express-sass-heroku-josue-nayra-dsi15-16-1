@@ -22,7 +22,7 @@ th {
   text-align: right; }
 
 table {
-  border: inset;
+  border: groove;
   border-color: white;
   text-align: center; }
 
@@ -55,7 +55,7 @@ tr:nth-child(odd) {
   background-color: #eee; }
 
 tr:nth-child(even) {
-  background-color: #00FF66; }
+  background-color: #ECCEF5; }
 
 input {
   text-align: right;
@@ -67,7 +67,7 @@ textarea {
   border-color: white; }
 
 table {
-  border: inset;
+  border: groove;
   border-color: white; }
 
 table.center {
@@ -75,7 +75,7 @@ table.center {
   margin-right: auto; }
 
 #result {
-  border-color: red; }
+  border-color: white; }
 
 tr.error {
   background-color: red; }
