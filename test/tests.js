@@ -34,6 +34,8 @@ describe('Comma separated values',function()
                     }
                 });
             });
+            sinon.assert.calledTwice(console.log);
+            sinon.assert.notCalled(console.error);
         });
         
         it("El formato para generar la tabla no es correcto. Calculate devuelve un error en la fila 3.",function()
@@ -43,6 +45,10 @@ describe('Comma separated values',function()
             expect(aux[1].rowClass).to.not.be.equal("error");
             expect(aux[2].rowClass).to.not.be.equal("error");
             expect(aux[3].rowClass).to.be.equal("error");
+            sinon.assert.calledOnce(console.log);
+            sinon.assert.notCalled(console.error);
+            sinon.assert.calledWithExactly(console.log,"Generando tabla");
+            
         });
       
       it ('Comprobando que cada fila de la tabla generada tiene los valores correctos...',function(){

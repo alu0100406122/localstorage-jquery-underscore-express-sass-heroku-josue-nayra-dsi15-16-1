@@ -7,6 +7,7 @@ console.log("Accedo a fichero csv.js");
   exports.calculate = function(original) {
     if(original != null)
     {
+      console.log("Generando tabla");
       var lines = original.split(/\n+\s*/);
       var commonLength = lines[0].match(regexp).length;
       var r = [];
