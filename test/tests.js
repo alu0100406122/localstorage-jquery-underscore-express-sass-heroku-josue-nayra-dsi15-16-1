@@ -62,6 +62,12 @@ describe('Comma separated values',function()
         sinon.assert.calledWithExactly(console.log,"Generando tabla");
       });
       
-        
+      it('Pasandole null a la función calculate. Debe devolver un error',function()
+      {
+          calculate(null);
+          sinon.assert.calledOnce(console.error);
+          sinon.assert.calledWithExactly(console.error,"No se le ha pasado ningún parámetro a la función calculate...");
+      });
+      
     });
 });
