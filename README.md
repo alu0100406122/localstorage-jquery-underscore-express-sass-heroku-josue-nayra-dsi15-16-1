@@ -1,3 +1,7 @@
+###Nota:
+###Rama master: Despliegue Heroku y express.
+###Rama gh-pages: Pruebas Mocha y Chai. Express (Myapp)
+
 
 #Práctica 7. Comma Separated Values
 
@@ -27,6 +31,10 @@ Información:
 * [Comma Separated](http://ull-esit-gradoii-dsi.github.io/localstorage-jquery-underscore-express-sass-heroku-josue-nayra-dsi15-16-1/)
 * [Pruebas Mocha y Chai](http://ull-esit-gradoii-dsi.github.io/localstorage-jquery-underscore-express-sass-heroku-josue-nayra-dsi15-16-1/test/)
 
+
+### Despliegue de la práctica en Heroku
+
+* []()
 
 ### Ejecución en Travis
 [![Build Status](https://travis-ci.org/JosueTC94/localstorage-jquery-underscore-express-sass-heroku-josue-nayra-dsi15-16-1.svg?branch=master)](https://travis-ci.org/JosueTC94/localstorage-jquery-underscore-express-sass-heroku-josue-nayra-dsi15-16-1)
